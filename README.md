@@ -1,13 +1,10 @@
 # Machine-Learning-in-AWS
-ML Case Study in AWS
-##Case 1 Population Segmentation with SageMaker
 
-###Using principal component analysis (PCA) you will reduce the dimensionality of the original census data. Then, you'll use k-means clustering to assign each US county to a particular cluster based on where a county lies in component space. How each cluster is arranged in component space can tell you which US counties are most similar and what demographic traits define that similarity; this information is most often used to inform targeted, marketing campaigns that want to appeal to a specific group of people. This cluster information is also useful for learning more about a population by revealing patterns between regions that you otherwise may not have noticed.
+## Case 1 Population Segmentation with SageMaker
 
-###US Census Data
-You'll be using data collected by the US Census, which aims to count the US population, recording demographic traits about labor, age, population, and so on, for each county in the US. The bulk of this notebook was taken from an existing SageMaker example notebook and blog post, and I've broken it down further into demonstrations and exercises for you to complete.
+Using principal component analysis (PCA) you will reduce the dimensionality of the original census data. Then, you'll use k-means clustering to assign each US county to a particular cluster based on where a county lies in component space. How each cluster is arranged in component space can tell you which US counties are most similar and what demographic traits define that similarity; this information is most often used to inform targeted, marketing campaigns that want to appeal to a specific group of people. This cluster information is also useful for learning more about a population by revealing patterns between regions that you otherwise may not have noticed.
 
-###Machine Learning Workflow
+### Machine Learning Workflow
 To implement population segmentation, you'll go through a number of steps:
 
 -Data loading and exploration
